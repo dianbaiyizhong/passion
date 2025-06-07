@@ -28,5 +28,15 @@ plugins:
 
 nav:
   - Index: index.md
-  - Tutorial: tutorials.md
+  - API Documentation:
+      - passion:
+          - http: api/http.md
+          - crypt: api/crypt.md
   - Reference: reference.md
+
+
+markdown_extensions:
+- tables
+- toc:
+    permalink: true
+    title: Page contents
