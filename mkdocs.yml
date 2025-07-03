@@ -3,6 +3,7 @@ site_name: passion
 
 theme:
   name: "material"
+  language: zh
   features:
     - navigation.tabs
   palette:
@@ -24,7 +25,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: [passion]
+          paths: [ passion ]
 
 nav:
   - Index: index.md
@@ -36,7 +37,7 @@ nav:
 
 
 markdown_extensions:
-- tables
-- toc:
-    permalink: true
-    title: Page contents
+  - tables
+  - toc:
+      permalink: true
+      title: Page contents
